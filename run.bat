@@ -1,2 +1,2 @@
-start pug --watch ./pugsrc --out ./
+start pug --watch ./pugsrc --out ./ --pretty
 start node server.js
