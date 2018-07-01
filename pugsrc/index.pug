@@ -2,8 +2,8 @@ html
     head
         link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css', integrity='sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4', crossorigin='anonymous')
     body
-        .jumbotron.jumbotron-fluid(style="background-color:#2480da;")
-            .container
+        .jumbotron.jumbotron-fluid(style="background-color:#2480da; position=relative;")
+            .container(style="z-index:1; position:relative;")
                 .row.justify-content-md-center
                     .col
                         h1.text-center Maatwerk ICT voor uw website of web app
@@ -15,7 +15,7 @@ html
                 .col-md.mb-3
                     .card
                         .p-3
-                            img.card-img-top(src='https://image.freepik.com/free-icon/personal-computer-screen_318-39777.jpg')
+                            img.card-img-top(src='/images/monitor.svg', alt='monitor')
                         .card-body
                             h5.card-title Gespecialiseerd in websites & web apps
                             p.
@@ -23,14 +23,15 @@ html
                                 Ik heb zowel via mijn opleiding als via de proffesionele markt ervaring opgedaan met het maken van websites en applicaties.
                 .col-md.mb-3
                     .card
-                        img.card-img-top(src='https://png.icons8.com/ios/1600/money-box.png', alt='Card image cap')
+                        .p-3
+                            img.card-img-top(src='/images/piggybank.svg', alt='piggybank')
                         .card-body
                             h5.card-title Betaalbaar
                             p Ik reken een uurtarief van &euro;25.-. U betaalt pas als u tevreden bent over het project.
                 .col-md.mb-3
                     .card
                         .p-3
-                            img.card-img-top(src='https://png.icons8.com/ios/100/000000/stack.png')
+                            img.card-img-top(src='/images/stack.svg' alt='stack')
 
                         .card-body
                             h5.card-title Full stack
@@ -39,7 +40,8 @@ html
                                 Zowel de website als de technologie die erachter zit kan ontwikkeld worden.
                 .col-md.mb-3
                     .card
-                        img.card-img-top(src='https://png.icons8.com/ios/1600/money-box.png', alt='Card image cap')
+                        .p-3
+                            img.card-img-top(src='/images/roundbubble.svg', alt='speechbubble')
                         .card-body
                             h5.card-title Communicatie
                             p.
